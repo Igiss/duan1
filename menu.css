@@ -90,11 +90,13 @@ ul.menu li {
   justify-content: center; /* Căn giữa theo chiều ngang */
   align-items: center; /* Căn giữa theo chiều dọc */
   padding: 0 250px; /* Khoảng cách bên trái và bên phải của logo */
+  max-width: 80%;
 }
 
 .logo img {
   max-width: 100%; /* Giới hạn chiều rộng tối đa của logo */
   height: auto;
+  display: block;
 }
 
 .left-header {
