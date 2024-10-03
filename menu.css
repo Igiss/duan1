@@ -94,6 +94,7 @@ ul.menu li {
 
 .logo img {
   max-width: 100%; /* Giới hạn chiều rộng tối đa của logo */
+  height: auto;
 }
 
 .left-header {
