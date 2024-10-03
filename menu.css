@@ -86,9 +86,13 @@ ul.menu li {
 }
 
 .logo {
-  justify-content: space-between; /* Căn đều các phần tử trong logo */
-  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
-  padding: 0 250px 0; /* Khoảng cách bên trái và bên phải của logo */
+  display: flex; /* Sử dụng flexbox để căn giữa */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  padding: 0 250px; /* Khoảng cách bên trái và bên phải của logo */
+}
+
+.logo img {
   max-width: 100%; /* Giới hạn chiều rộng tối đa của logo */
 }
 
