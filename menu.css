@@ -1,0 +1,129 @@
+.sub-menu {
+  display: none; /* Ẩn menu con ban đầu */
+  justify-content: space-between; /* Căn đều các phần tử trong menu con */
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  position: absolute; /* Thiết lập vị trí tuyệt đối cho menu con */
+  border: 1px solid; /* Đường viền cho menu con */
+  padding: 23px 24px; /* Khoảng cách giữa nội dung và viền của menu con */
+  left: 50px; /* Đặt menu con cách từ bên trái 50px */
+  width: 1280px; /* Chiều rộng của menu con */
+  height: auto; /* Chiều cao tự động dựa trên nội dung bên trong */
+}
+
+.sub-menu-info {
+  display: none; /* Ẩn menu con ban đầu */
+  justify-content: space-between; /* Căn đều các phần tử trong menu con */
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  position: absolute; /* Thiết lập vị trí tuyệt đối cho menu con */
+  border: 1px solid; /* Đường viền cho menu con */
+}
+
+li:hover .sub-menu {
+  display: table; /* Hiển thị menu con khi di chuột qua mục menu chính */
+}
+
+li:hover .sub-menu-info {
+  display: table; /* Hiển thị thông tin menu con khi di chuột qua mục menu chính */
+  width: 15%; /* Chiều rộng của menu con thông tin */
+  padding: 0; /* Không có khoảng cách bên trong cho menu con thông tin */
+}
+
+.sub-menu-item-right .li-menu-item ul {
+  display: table; /* Hiển thị các mục con bên trong menu */
+  padding: 0; /* Không có khoảng cách bên trong cho danh sách mục con */
+}
+
+ul {
+  list-style-type: none; /* Ẩn dấu đầu dòng của danh sách */
+}
+
+li a,
+.menu {
+  text-decoration: none; /* Không có gạch chân cho liên kết */
+  color: black; /* Màu chữ cho liên kết */
+}
+
+ul.menu li {
+  padding: 10px; /* Khoảng cách bên trong cho từng mục menu */
+  float: left; /* Đặt các mục menu bên cạnh nhau */
+}
+
+.menu .sub-menu .sub-menu-left {
+  float: left; /* Đặt menu bên trái bên cạnh menu con */
+  width: 20%; /* Chiều rộng của menu bên trái */
+  height: 300px; /* Chiều cao của menu bên trái */
+}
+
+.sub-menu .sub-menu-left-item ul li {
+  clear: both; /* Đặt lại dòng cho các mục con trong menu bên trái */
+}
+
+.menu.sub-menu .sub-menu-item-right {
+  width: 80%; /* Chiều rộng của menu bên phải */
+  height: 300px; /* Chiều cao của menu bên phải */
+  display: table; /* Hiển thị như một bảng */
+}
+
+.menu .sub-menu .sub-menu-item-right .li-menu-item {
+  width: 100%; /* Chiều rộng của mục menu bên phải */
+  height: 230px; /* Chiều cao của mục menu bên phải */
+  max-width: 150px; /* Chiều rộng tối đa của mục menu bên phải */
+  float: left; /* Đặt các mục bên cạnh nhau */
+}
+
+.menu a {
+  position: relative; /* Thiết lập vị trí tương đối cho các liên kết trong menu */
+}
+
+.sub-menu-item-right .li-menu-item ul li {
+  padding: 10px 0; /* Khoảng cách bên trên và dưới cho các mục con trong menu bên phải */
+}
+
+.menu > li > a {
+  text-transform: uppercase; /* Chuyển đổi chữ cái thành chữ hoa cho liên kết trong menu */
+}
+
+.logo {
+  justify-content: space-between; /* Căn đều các phần tử trong logo */
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  padding: 0 250px 0; /* Khoảng cách bên trái và bên phải của logo */
+  max-width: 100%; /* Giới hạn chiều rộng tối đa của logo */
+}
+
+.left-header {
+  font-size: 12px; /* Kích thước font chữ cho phần đầu bên trái */
+  font-weight: bold; /* Độ đậm của chữ cho phần đầu bên trái */
+}
+
+.sub-menu .sub-menu-left span {
+  margin: 50px; /* Khoảng cách bên ngoài cho các phần tử span trong menu bên trái */
+}
+
+.Search-hearder ul input {
+  float: right; /* Đặt ô input bên phải */
+  height: 40px; /* Chiều cao của ô input */
+  background: #fff; /* Màu nền cho ô input */
+  border: 1px solid #e7e8e9; /* Đường viền cho ô input */
+  border-radius: 4px; /* Bo tròn các góc của ô input */
+  font-weight: 400; /* Độ đậm của chữ trong ô input */
+  font-size: 12px; /* Kích thước font chữ trong ô input */
+  padding-left: 40px; /* Khoảng cách bên trái cho chữ trong ô input */
+  position: relative; /* Thiết lập vị trí tương đối cho ô input */
+}
+
+.Search-hearder ul button {
+  float: right; /* Đặt nút bên phải */
+  height: 40px; /* Chiều cao của nút */
+  background: #fff; /* Màu nền cho nút */
+  border: 1px solid #e7e8e9; /* Đường viền cho nút */
+  border-radius: 4px; /* Bo tròn các góc của nút */
+  font-weight: 400; /* Độ đậm của chữ trong nút */
+  font-size: 12px; /* Kích thước font chữ trong nút */
+}
+
+ul.item-icon a {
+  float: right; /* Đặt các liên kết biểu tượng bên phải */
+  margin: 10px; /* Khoảng cách xung quanh các liên kết biểu tượng */
+  padding-left: 15px; /* Khoảng cách bên trái cho liên kết biểu tượng */
+  padding-right: 10px; /* Khoảng cách bên phải cho liên kết biểu tượng */
+}

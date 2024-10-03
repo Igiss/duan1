@@ -1,0 +1,131 @@
+.title-section {
+  text-align: center; /* Căn giữa nội dung theo chiều ngang */
+  letter-spacing: 2px; /* Khoảng cách giữa các ký tự */
+  text-transform: uppercase; /* Chuyển đổi tất cả chữ cái thành chữ hoa */
+  font-weight: 600; /* Độ đậm của chữ (600 là mức độ đậm) */
+  font-size: 30px; /* Kích thước font chữ */
+  line-height: 32px; /* Khoảng cách giữa các dòng văn bản */
+  font-family: "Montserrat"; /* Font chữ sử dụng cho văn bản */
+  color: #221f20; /* Màu chữ */
+}
+.tab-content {
+  text-decoration: none;
+}
+.add-product .glyphicon-shopping-cart {
+  color: #fff; /*chỉnh màu cho icon */
+}
+.banner {
+  display: flex; /* Sử dụng flexbox để định dạng các phần tử bên trong */
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  justify-content: center; /* Căn giữa các phần tử theo chiều ngang */
+  padding: 20px; /* Khoảng cách giữa nội dung và viền của phần tử */
+  border-radius: 10px; /* Bo tròn các góc của phần tử */
+}
+
+.banner-image {
+  display: flex; /* Sử dụng flexbox để định dạng các phần tử bên trong */
+  flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  text-align: center; /* Căn giữa nội dung theo chiều ngang */
+}
+
+.banner-image img {
+  width: 80%; /* Kích thước chiều rộng của hình ảnh */
+  height: auto; /* Giữ tỉ lệ của hình ảnh */
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của container */
+}
+
+.tab {
+  color: #6c6d70; /* Màu chữ cho tab */
+  font-size: 20px; /* Kích thước font chữ cho tab */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab */
+}
+
+.tab-head {
+  text-align: center; /* Căn giữa tiêu đề tab */
+  margin-bottom: 28px; /* Khoảng cách bên dưới tiêu đề tab */
+}
+
+.tab-active-arrival-tab {
+  color: #221f20; /* Màu chữ cho tab đang hoạt động */
+  border-bottom: 2px solid #221f20; /* Đường viền dưới tab đang hoạt động */
+  display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
+  margin-right: 56px; /* Khoảng cách bên phải của tab đang hoạt động */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab đang hoạt động */
+}
+
+.tab-arrival-tab {
+  display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
+  margin: 0 58px; /* Khoảng cách bên phải của tab */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab */
+}
+
+.item-new-product {
+  height: 400px; /* Chiều cao của sản phẩm mới */
+}
+
+.item-new-product {
+  width: 80%; /* Chiều rộng của phần tử sản phẩm mới */
+  margin: 0 auto; /* Căn giữa phần tử sản phẩm mới theo chiều ngang */
+  display: flex; /* Sắp xếp các phần tử bên trong theo chiều ngang */
+  justify-content: space-between; /* Căn đều các phần tử bên trong */
+}
+
+.info-product {
+  margin-bottom: 100px; /* Khoảng cách bên dưới của thông tin sản phẩm */
+  margin-top: 20px; /* Khoảng cách bên trên của thông tin sản phẩm */
+  position: relative; /* Thiết lập vị trí tương đối để có thể sử dụng với các phần tử tuyệt đối bên trong */
+}
+
+.item-product-image img {
+  top: 0; /* Thiết lập vị trí trên cùng của hình ảnh */
+  left: 0; /* Thiết lập vị trí bên trái của hình ảnh */
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của sản phẩm */
+  height: auto; /* Giữ tỉ lệ của hình ảnh */
+}
+
+.product-title {
+  color: #57585a; /* Màu chữ cho tiêu đề sản phẩm */
+  font-size: 14px; /* Kích thước font chữ cho tiêu đề sản phẩm */
+  line-height: 16px; /* Khoảng cách giữa các dòng văn bản trong tiêu đề sản phẩm */
+  font-weight: 400; /* Độ đậm của chữ cho tiêu đề sản phẩm */
+  margin-bottom: 10px; /* Khoảng cách bên dưới của tiêu đề sản phẩm */
+  display: block; /* Hiển thị tiêu đề sản phẩm dưới dạng khối */
+  text-transform: capitalize; /* Chuyển đổi chữ cái đầu tiên của mỗi từ thành chữ hoa */
+}
+
+.add-product {
+  position: absolute; /* Thiết lập vị trí tuyệt đối để có thể đặt chính xác */
+  bottom: 0; /* Đặt phần tử ở dưới cùng của phần tử cha */
+  right: 0; /* Đặt phần tử ở bên phải của phần tử cha */
+  background: #221f20; /* Màu nền của nút thêm sản phẩm */
+  border-radius: 8px 0; /* Bo tròn góc của nút */
+  width: 32px; /* Chiều rộng của nút */
+  height: 32px; /* Chiều cao của nút */
+  color: #fff; /* Màu chữ cho nút */
+  display: flex; /* Sử dụng flexbox để định dạng nội dung bên trong */
+  align-items: center; /* Căn giữa nội dung theo chiều dọc */
+  justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+  border: 1px solid transparent; /* Đường viền trong suốt cho nút */
+}
+.item-product:last-child {
+  margin-right: 0; /* Không có margin cho phần tử cuối cùng */
+}
+.view-all-products {
+  text-align: center;
+  margin-top: 50px;
+}
+.view-all-button {
+  border: 2px solid #221f20; /* Đường viền */
+  border-bottom-right-radius: 20px; /* Bo tròn các góc */
+  border-top-left-radius: 20px; /* Bo tròn các góc */
+  padding: 10px 20px; /* Thêm padding cho nút */
+  background-color: #f5f5f5; /* Màu nền cho nút */
+  color: #221f20; /* Màu chữ */
+  font-weight: bold; /* Chữ đậm hơn */
+}
+
+.view-all-button:hover {
+  background-color: #221f20; /* Màu nền khi hover */
+  color: #fff; /* Màu chữ khi hover */
+}
