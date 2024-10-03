@@ -8,6 +8,7 @@
   left: 50px; /* Đặt menu con cách từ bên trái 50px */
   width: 1280px; /* Chiều rộng của menu con */
   height: auto; /* Chiều cao tự động dựa trên nội dung bên trong */
+  background-color: white;
 }
 
 .sub-menu-info {
@@ -16,6 +17,7 @@
   align-items: center; /* Căn giữa các phần tử theo chiều dọc */
   position: absolute; /* Thiết lập vị trí tuyệt đối cho menu con */
   border: 1px solid; /* Đường viền cho menu con */
+  background-color: white;
 }
 
 li:hover .sub-menu {
