@@ -130,3 +130,17 @@
   background-color: #221f20; /* Màu nền khi hover */
   color: #fff; /* Màu chữ khi hover */
 }
+.item-product-promote-image img {
+  top: 0; /* Thiết lập vị trí trên cùng của hình ảnh */
+  left: 0; /* Thiết lập vị trí bên trái của hình ảnh */
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của sản phẩm */
+  height: 100%; /* Giữ tỉ lệ của hình ảnh */
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.item-new-product-promote {
+  width: 80%; /* Chiều rộng của phần tử sản phẩm mới */
+  margin: 0 auto; /* Căn giữa phần tử sản phẩm mới theo chiều ngang */
+  display: flex; /* Sắp xếp các phần tử bên trong theo chiều ngang */
+  justify-content: space-between; /* Căn đều các phần tử bên trong */
+}
