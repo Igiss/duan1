@@ -144,3 +144,40 @@
   display: flex; /* Sắp xếp các phần tử bên trong theo chiều ngang */
   justify-content: space-between; /* Căn đều các phần tử bên trong */
 }
+.right-footer {
+  display: flex;
+  margin-right: 40px;
+  float: right;
+}
+.right-footer p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.right-footer ul li {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+}
+.right-footer ul {
+  padding: 0;
+}
+.left-footer-logo a img {
+  margin-left: 60px;
+  width: 10%;
+  margin-bottom: 15px;
+}
+.left-footer-hotline a {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: #221f20;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  margin-left: 60px;
+  padding: 15px;
+  display: inline-block;
+}
