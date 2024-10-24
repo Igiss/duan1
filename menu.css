@@ -117,7 +117,6 @@ ul.menu li {
   font-weight: 400; /* Độ đậm của chữ trong ô input */
   font-size: 12px; /* Kích thước font chữ trong ô input */
   padding-left: 40px; /* Khoảng cách bên trái cho chữ trong ô input */
-  position: relative; /* Thiết lập vị trí tương đối cho ô input */
 }
 
 .Search-hearder ul button {

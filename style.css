@@ -53,12 +53,14 @@
   display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
   margin-right: 56px; /* Khoảng cách bên phải của tab đang hoạt động */
   line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab đang hoạt động */
+  cursor: pointer;
 }
 
 .tab-arrival-tab {
   display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
-  margin: 0 58px; /* Khoảng cách bên phải của tab */
-  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab */
+  margin-right: 56px; /* Khoảng cách bên phải của tab đang hoạt động */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab đang hoạt động */
+  cursor: pointer;
 }
 
 .item-new-product {
