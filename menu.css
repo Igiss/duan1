@@ -44,7 +44,10 @@ li a,
   text-decoration: none; /* Không có gạch chân cho liên kết */
   color: black; /* Màu chữ cho liên kết */
 }
-
+li a,
+.menu :hover {
+  text-decoration: none;
+}
 ul.menu li {
   padding: 10px; /* Khoảng cách bên trong cho từng mục menu */
   float: left; /* Đặt các mục menu bên cạnh nhau */

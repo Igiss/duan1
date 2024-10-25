@@ -72,6 +72,7 @@
   margin: 0 auto; /* Căn giữa phần tử sản phẩm mới theo chiều ngang */
   display: flex; /* Sắp xếp các phần tử bên trong theo chiều ngang */
   justify-content: space-between; /* Căn đều các phần tử bên trong */
+  margin-bottom: 40px;
 }
 
 .info-product {
