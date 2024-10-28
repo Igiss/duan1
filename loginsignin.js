@@ -1,4 +1,3 @@
-// Function to handle signup
 function handleSignup(event) {
   event.preventDefault(); // Ngăn form submit mặc định
 
@@ -22,9 +21,15 @@ function handleSignup(event) {
     return;
   }
 
-  // Ràng buộc mật khẩu không được trống
-  if (password.trim() === "") {
-    alert("Mật khẩu không được để trống.");
+  if (password.length < 6) {
+    alert("Mật khẩu phải có ít nhất 6 ký tự.");
+    return;
+  }
+
+  // Kiểm tra độ phức tạp của mật khẩu (tùy chọn)
+  const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;
+  if (!passwordRegex.test(password)) {
+    alert("Mật khẩu phải bao gồm cả chữ cái và số.");
     return;
   }
 
@@ -48,9 +53,15 @@ function handleLogin(event) {
     return;
   }
 
-  // Ràng buộc mật khẩu không được trống
-  if (password.trim() === "") {
-    alert("Mật khẩu không được để trống.");
+  if (password.length < 6) {
+    alert("Mật khẩu phải có ít nhất 6 ký tự.");
+    return;
+  }
+
+  // Kiểm tra độ phức tạp của mật khẩu (tùy chọn)
+  const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;
+  if (!passwordRegex.test(password)) {
+    alert("Mật khẩu phải bao gồm cả chữ cái và số.");
     return;
   }
 
@@ -59,9 +70,8 @@ function handleLogin(event) {
 }
 
 // Gắn sự kiện click vào nút Signup
-document
-  .querySelector(".signup button")
-  .addEventListener("click", handleSignup);
-
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector(".signup button").addEventListener("click", handleSignup);
+  
 // Gắn sự kiện click vào nút Login
 document.querySelector(".login button").addEventListener("click", handleLogin);
