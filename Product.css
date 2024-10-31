@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 96%;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(186, 126, 126, 0.5);
+  border-radius: 10px;
+  padding: 16px;
+  margin-left: 1%;
+}
+.home {
+  width: 100%;
+  height: auto;
+}
+.back-home {
+  display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
+  margin-right: 56px; /* Khoảng cách bên phải của tab đang hoạt động */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab đang hoạt động */
+  cursor: pointer;
+  font-size: 30px;
+}
+.back-home a {
+  color: black;
+  text-decoration: none;
+}
+.tab-head {
+  color: #6c6d70; /* Màu chữ cho tab */
+  font-size: 20px; /* Kích thước font chữ cho tab */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab */
+  text-align: center; /* Căn giữa tiêu đề tab */
+  margin-bottom: 28px; /* Khoảng cách bên dưới tiêu đề tab */
+}
+.Product-detail {
+  color: #221f20; /* Màu chữ cho tab đang hoạt động */
+  border-bottom: 2px solid #221f20; /* Đường viền dưới tab đang hoạt động */
+  display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
+  margin-right: 56px; /* Khoảng cách bên phải của tab đang hoạt động */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab đang hoạt động */
+  cursor: pointer;
+}
+
+.introduce {
+  display: inline-block; /* Để tab không chiếm toàn bộ chiều rộng */
+  margin-right: 56px; /* Khoảng cách bên phải của tab đang hoạt động */
+  line-height: 30px; /* Khoảng cách giữa các dòng văn bản trong tab đang hoạt động */
+  cursor: pointer;
+}
+p {
+  font-size: 9, 6px;
+  color: black;
+  letter-spacing: 1px;
+}
+.imagea-and-sizes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imagea-and-sizes img {
+  width: 100%;
+}
+.slideshow-buttons {
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.slideshow-buttons span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: silver;
+}
+.slideshow-buttons .focus {
+  background: darkslategray;
+}
+.sizes {
+  display: flex;
+  justify-content: flex-start;
+  gap: 6.4px;
+}
+.button-sizes {
+  display: flex;
+}
+.button-sizes span {
+  border: 1px solid black;
+  width: 30px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  font-size: 14px;
+  margin: 2px;
+}
+.button-sizes span.selected {
+  background-color: black;
+  color: white;
+}
+.button-sizes span:active {
+  background: black;
+  color: white;
+}
+.button-color {
+  display: flex;
+}
+.button-color span {
+  border: 1px solid black;
+  width: 30px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  font-size: 14px;
+  margin: 2px;
+}
+.product {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.product p {
+  text-transform: uppercase;
+  width: 1024px;
+}
+.product h1 {
+  font-size: 19.2;
+  color: black;
+  margin-top: -5px;
+}
+.description {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: black;
+  font-size: 11, 2px;
+  line-height: 25px;
+  text-align: justify;
+  width: 100%;
+  height: auto;
+}
+button:active {
+  background-color: black;
+  padding: 0;
+  display: inline-block;
+  outline: 0;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+.buttons button {
+  background-color: white;
+  padding: 0;
+  display: inline-block;
+  outline: 0;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+}
+.buttons .add {
+  width: 20%;
+  height: 40px;
+}
+.buttons .like {
+  width: 5%;
+  height: 40px;
+}

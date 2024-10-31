@@ -25,3 +25,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setActiveTab("IVY moda"); // Khởi tạo với IVY moda là tab mặc định
 });
+async function searchProducts() {
+  const searchValue = document
+    .getElementById("searchInput")
+    .value.toLowerCase();
+  const querySnapshot = await db.collection("products").get();
+  document.getElementById("products").innerHTML = ""; // Xóa các sản phẩm hiện tại
+  querySnapshot.forEach((doc) => {
+    const product = doc.data();
+    if (product.name.toLowerCase().includes(searchValue)) {
+      displayProduct(product);
+    }
+  });
+}
